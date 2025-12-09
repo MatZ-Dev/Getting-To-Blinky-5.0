@@ -1426,7 +1426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GettingToBlinky5.0:S8211-46R"
 			(at 74.93 106.426 90)
 			(effects
 				(font
