@@ -111,9 +111,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerber/")
 		)
 	)
 	(net 0 "")
@@ -131,19 +131,21 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 -1.65 90)
+			(at 0 -2 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "811bfc15-2080-4c71-8a99-88ea0d85c969")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.1)
 				)
 			)
 		)
 		(property "Value" "470K"
 			(at 0 1.65 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "8e68536e-1d36-4d9f-8ec2-785924bb349d")
 			(effects
 				(font
@@ -283,12 +285,13 @@
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "26488aa9-4474-4e7a-981d-78f6c13bbfc9")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -330,19 +333,21 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
-			(at 0 -1.65 90)
+			(at 0 2 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f10686aa-4961-4836-8561-b98ccaa0dc64")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.1)
 				)
 			)
 		)
 		(property "Value" "1K"
 			(at 0 1.65 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4e10899d-8543-4207-b011-56553e42de49")
 			(effects
 				(font
@@ -482,12 +487,13 @@
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "f3dedff8-0363-4920-9cbf-fe859c47ff6b")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -529,19 +535,21 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U1"
-			(at 0 -3.4 0)
+			(at 0 -3.75 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6272fdc5-12e1-4c24-91dc-65875292b23e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.1)
 				)
 			)
 		)
 		(property "Value" "7555"
 			(at 0 3.4 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3f756ee3-235b-47be-99a0-71679b96f237")
 			(effects
 				(font
@@ -784,6 +792,7 @@
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "50c1e811-0a82-43de-abd1-a4f7410f5eba")
 			(effects
@@ -893,19 +902,21 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D1"
-			(at 0 -1.65 90)
+			(at 0 -2 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "fa5802b3-02b6-429c-9f8e-e029f078e8f8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.1)
 				)
 			)
 		)
 		(property "Value" "LED"
 			(at 0 1.65 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4927bfb4-5ac2-4a4b-8cb4-7e86864701f0")
 			(effects
 				(font
@@ -1078,12 +1089,13 @@
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "1304bc0e-9f6e-4934-978c-0e853acad9ee")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1127,19 +1139,21 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at 0 -1.68 90)
+			(at 0 -2 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "859adf2e-d8ca-404f-a915-d25508f271f2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.1)
 				)
 			)
 		)
 		(property "Value" "1U"
 			(at 0 1.68 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "37638e51-9bd2-4fa8-b744-0284c6aff51e")
 			(effects
 				(font
@@ -1279,12 +1293,13 @@
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "1f55648e-f5a8-4e66-a2bf-785233d85fa9")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1326,19 +1341,21 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0 -1.65 90)
+			(at 0 -2 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a14265b4-7cc9-4c55-a23f-f87c36a9cb20")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.1)
 				)
 			)
 		)
 		(property "Value" "1K"
 			(at 0 1.65 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "96942b2c-0d57-40b8-8adb-2acf328cf67f")
 			(effects
 				(font
@@ -1478,12 +1495,13 @@
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "2b51c0fd-1a72-414e-8488-857be424fa48")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1529,7 +1547,7 @@
 			(uuid "9c262927-5f07-42f3-8da1-49f86d511f44")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.2 1.2)
 					(thickness 0.1)
 				)
 				(justify mirror)
@@ -1539,6 +1557,7 @@
 			(at 0 4 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "68886b33-94b0-4b61-bcbe-53951635ac7a")
 			(effects
 				(font
@@ -1751,6 +1770,18 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f4234732-8d3c-4a81-85c0-65dc7c99145d")
+	)
+	(gr_text "Hello Blinky"
+		(at 140.5 85.25 0)
+		(layer "F.SilkS")
+		(uuid "de4948c9-4b7b-48be-be56-1d300371e8fb")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 147.975 92.095)
