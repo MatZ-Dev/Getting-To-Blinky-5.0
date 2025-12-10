@@ -1398,6 +1398,36 @@
 		)
 		(uuid "fd285316-c00c-4a2f-a99b-034ed1e9222e")
 	)
+	(label "THR"
+		(at 115.57 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8ca9284-b9bf-4d2a-969b-3a508f48f9ca")
+	)
+	(label "VDD"
+		(at 124.46 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef8dc690-8e7b-4304-8475-be5b1342aa30")
+	)
+	(label "DIS"
+		(at 118.11 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc39700d-98ee-4760-8c14-3fd631335ef3")
+	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 74.93 107.95 0)
