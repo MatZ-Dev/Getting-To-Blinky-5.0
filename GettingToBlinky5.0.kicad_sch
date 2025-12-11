@@ -1456,7 +1456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GettingToBlinky5.0:S8211-46R"
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
 			(at 74.93 106.426 90)
 			(effects
 				(font
